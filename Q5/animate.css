@@ -1,0 +1,25 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: black;
+    justify-content: center;
+    
+}
+
+#container {
+    position: relative;
+    width: 5000%;
+    height: 75%;
+}
+
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 255);
+    position: absolute;
+    transition: transform 2.5s ease-in-out;
+}
+
+
+

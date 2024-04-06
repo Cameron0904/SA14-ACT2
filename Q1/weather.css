@@ -1,0 +1,47 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #000000bd;
+}
+
+#container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #a0262694;
+    border-radius: 10px;
+}
+
+#search-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#city-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #000000; 
+    border-radius: 5px; 
+    outline: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #132dc0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#weather-info {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
